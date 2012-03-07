@@ -1,0 +1,13 @@
+{
+    "author": "Louis Rawlins <email@louisrawlins.com> (http://louisrawlins.com/)"
+  , "name": "portfolio"
+  , "description": "Personal portfolio"
+  , "version": "0.0.1"
+  , "homepage": "http://portfolio.louisrawlins.com/"
+  , "private": true
+  , "scripts": { "start" : "node app.js" }
+  , "dependencies": {
+      "express": "2.5.8"
+    , "jade": ">= 0.0.1"
+  }
+}
