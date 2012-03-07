@@ -15,3 +15,7 @@ Steps to create my site:
 1. Add to [https://github.com/louisrawlins/site](https://github.com/louisrawlins/site)
 1. Modify to suit
 1. Deploy to [http://www.joyentcloud.com/](http://www.joyentcloud.com/)
+1. `git remote add joyent your_static_ip_address:repo`
+1. // Choose port 80 if we're on Joyent (`% export JOYENT=1` to set on server, `echo $JOYENT` to check)
+
+
