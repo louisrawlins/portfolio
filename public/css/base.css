@@ -158,17 +158,29 @@ article {
 */
 }
 
+article section {
+  margin-bottom: 2.5em;
+}
+
 article header,
 article p,
 article ul,
 article dl {
-  margin: 0 0 2em 0;      
+  margin: 0 0 1.5em 0;      
 }
 
 article h1,
 article strong {
+  color: #777;
+  font-size: 1.5em;
+  line-height: 1em;
   display: block;
-  margin: 0 0 0.75em 0;
+  font-family: 'Titillium Maps Regular';
+}
+
+article h2 {
+  margin-bottom: 1em;
+  color: #777;
   font-family: 'Titillium Maps Regular';
 }
 
@@ -191,14 +203,22 @@ article section dl dd.example a:hover {
 
 article section img.thumb {
   width: 100px;
-  margin: 10px;
+  margin: 10px 7.5px 5px 10px;
   border: solid 2px #eee;
 }
 
-article section dl dd.gallery {
-  margin: 10px 0;
+article section.gallery,
+article section dl.gallery {
   padding: 10px;
   background: #eee;
+}
+
+article section.gallery p {
+  margin: 0.33em;
+}
+
+article section dl dd.detail {
+  margin: 0.5em 0 0.25em 0;
 }
 
 aside {
