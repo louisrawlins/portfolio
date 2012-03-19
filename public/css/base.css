@@ -189,6 +189,18 @@ article section dl dd.example a:hover {
   border-bottom:1px dotted #ffb01f;
 }
 
+article section img.thumb {
+  width: 100px;
+  margin: 10px;
+  border: solid 2px #eee;
+}
+
+article section dl dd.gallery {
+  margin: 10px 0;
+  padding: 10px;
+  background: #eee;
+}
+
 aside {
   position: absolute;
   top: 0;
