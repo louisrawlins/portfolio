@@ -178,6 +178,11 @@ article strong {
   font-family: 'Titillium Maps Regular';
 }
 
+article hr {
+  border: none;
+  border-top: solid 1px #ddd;
+}
+
 article h2 {
   margin-left: 0.33em;
   margin-bottom: 1em;
