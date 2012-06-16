@@ -220,7 +220,11 @@ article section.comment {
   background: #ffd991;
 }
 
-article section.first {2
+article section h1 {
+  padding: 5px;
+}
+
+article section.first {
   margin-top: 2.5em;
 }
 
