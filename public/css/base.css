@@ -199,6 +199,17 @@ article section dl dd.example:before {
   vertical-align: 1px;
 }
 
+article section dl dd.info em {
+  width: 40px;
+  text-align: right;
+  float: left;
+}
+
+article section dl dd.info span {
+  display: block;
+  margin-left: 45px;
+}
+
 article section dl dd.example {
   margin-top: 4px;
 }
