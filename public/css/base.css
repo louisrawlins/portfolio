@@ -236,6 +236,17 @@ article section.comment {
   background: #ffd991;
 }
 
+article section.comment dl {
+  margin: 5px;
+  padding: 5px 0 10px 0;
+  background: #eee;
+}
+
+article section.comment dl dd {
+  padding: 5px;
+  background: #eee;
+}
+
 article section h1 {
   padding: 5px;
 }
