@@ -247,6 +247,12 @@ article section.comment dl dd {
   background: #eee;
 }
 
+article section dl dd small {
+  font-style: italic;
+  margin-left: 3px;
+  color: #bbb;
+}
+
 article section h1 {
   padding: 5px;
 }
