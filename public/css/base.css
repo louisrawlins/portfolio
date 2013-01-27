@@ -46,8 +46,8 @@ a { color: #aaa; }
 body {
   width: 650px;
   margin: 50px;
-  color: #333;
-  font-family: "Titillium Maps Light";
+  color: #444;
+  font-family: Georgia, Times, "Times New Roman", serif;
   line-height: 1.625em;
 }
 
@@ -160,7 +160,9 @@ article {
 }
 
 article section {
-  margin-bottom: 2.5em;
+  background: #f5f5f5;
+  margin-bottom: 1.5em;
+  padding: 10px;
 }
 
 article header,
@@ -181,7 +183,7 @@ article strong {
 
 article hr {
   border: none;
-  border-top: solid 1px #ddd;
+  border-top: solid 1px #f6f6f6;
 }
 
 article h2 {
@@ -228,13 +230,38 @@ article section img.thumb {
 article section.gallery,
 article section dl.gallery {
   padding: 10px;
-  background: #eee;
+  background: #fefefe;
+  border: solid 1px #eee;
+  overflow: hidden;
+}
+
+article section dl.gallery dd {
+  margin-top: 5px;
+  padding: 5px;
+  background: #fafafa;
+}
+
+article section dl.gallery dt.type {
+  padding-left: 20px;
+  background: transparent url('../images/portfolio-arrow.png') 3px 5px no-repeat;
+}
+
+article section dl.gallery dt.open {
+  background: transparent url('../images/portfolio-arrow.png') 3px -25px no-repeat;
 }
 
 article section.comment {
   padding: 10px;
   margin-bottom: 1em;
-  background: #ffd991;
+  background: #fafafa;
+}
+
+article section.comment small {
+  display: block;
+  color: #222;
+  font-size: 12px;
+  padding-top: 15px;
+  margin-left: 5px;
 }
 
 article section.comment dl {
@@ -256,6 +283,7 @@ article section dl dd small {
 
 article section h1 {
   padding: 5px;
+  padding-top: 7px;
 }
 
 article section.first {
@@ -265,7 +293,6 @@ article section.first {
 article section section.comment {
   margin-top: 1em;
   margin-bottom: 1em;
-  background: #ffd991;
 }
 
 article section.comment p,
