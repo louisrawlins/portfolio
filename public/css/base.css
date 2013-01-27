@@ -227,6 +227,10 @@ article section img.thumb {
   border: solid 2px #eee;
 }
 
+article section img.noBorder {
+  border: solid 2px transparent;
+}
+
 article section.gallery,
 article section dl.gallery {
   padding: 10px;

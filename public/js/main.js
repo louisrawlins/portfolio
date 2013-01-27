@@ -1,6 +1,40 @@
 // January 27, 2013 11:23:12 AM PST
 // Some functions for fun.
 
+
+// Lightbox galleries
+$(function() {
+  $('section#quetzall dl.gallery#quetzall-ts dd.slideshow a').lightBox();
+  $('section#astrid dl.gallery dd.slideshow a').lightBox();
+  $('section#tpspac dl.gallery dd.slideshow a').lightBox();
+  $('section#hadza dl.gallery dd.slideshow a').lightBox();
+  $('section#kp dl#kp-prf.gallery dd.slideshow a').lightBox();
+  $('section#kp dl#kp-iat.gallery dd.slideshow a').lightBox();
+  $('section#kp dl#kp-mc.gallery dd.slideshow a').lightBox();
+  $('section#rose dl.gallery dd.slideshow a').lightBox();
+  $('section#sleep_patterns dl.gallery dd.slideshow a').lightBox();
+  $('section#chai_labs dl.gallery dd.slideshow a').lightBox();
+  $('section#isolina dl.gallery dd.slideshow a').lightBox();
+  $('section#non-linear dl.gallery dd.slideshow a').lightBox();
+  $('section#diaspora dl.gallery dd.slideshow a').lightBox();
+  $('section#dispersal_residue dl.gallery dd.slideshow a').lightBox();
+});
+
+// section#quetzall dl.gallery#quetzall-ts
+// section#astrid dl.gallery
+// section#tpspac dl.gallery
+// section#hadza dl.gallery
+// section#kp dl#kp-prf.gallery
+// section#kp dl#kp-iat.gallery
+// section#kp dl#kp-mc.gallery
+// section#rose dl.gallery
+// section#sleep_patterns dl.gallery
+// section#chai_labs dl.gallery
+// section#isolina dl.gallery
+// section#non-linear dl.gallery
+// section#diaspora dl.gallery
+// section#dispersal_residue dl.gallery
+
 jQuery.fn.animateAuto = function(prop, speed, callback){
     var elem, height, width;
     return this.each(function(i, el){
