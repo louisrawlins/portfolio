@@ -245,6 +245,10 @@ article section dl.gallery dd {
   background: #fafafa;
 }
 
+article section dl.gallery dd.description {
+  padding: 5px 8px;
+}
+
 article section dl.gallery dt.type {
   padding-left: 20px;
   background: transparent url('../images/portfolio-arrow.png') 3px 5px no-repeat;
