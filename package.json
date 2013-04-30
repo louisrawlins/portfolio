@@ -2,9 +2,9 @@
     "author": "Louis Rawlins <email@louisrawlins.com> (http://louisrawlins.com/)",
     "name": "portfolio",
     "description": "Personal portfolio",
-    "version": "0.0.1-7",
+    "version": "0.0.1-15",
     "homepage": "http://louisrawlins.com/",
-    "subdomain": "louisrawlins.portfolio",
+    "subdomain": "portfolio-louisrawlins",
     "domains": [
         "portfolio.louisrawlins.com"
     ],

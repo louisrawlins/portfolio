@@ -210,7 +210,7 @@ article section dl dd.info em {
 
 article section dl dd.info span {
   display: block;
-  margin-left: 45px;
+  margin-left: 3em;
 }
 
 article section dl dd.example {
