@@ -161,6 +161,7 @@ article {
 
 article section {
   background: #f5f5f5;
+  margin-left: -2px;
   margin-bottom: 1.5em;
   padding: 10px;
 }
@@ -250,8 +251,8 @@ article section dl.gallery dd.description {
 }
 
 article section dl.gallery dt.type {
-  padding-left: 20px;
-  background: transparent url('../images/portfolio-arrow.png') 3px 5px no-repeat;
+/*  padding-left: 20px; */
+/*  background: transparent url('../images/portfolio-arrow.png') 3px 5px no-repeat; */
 }
 
 article section dl.gallery dt.open {
