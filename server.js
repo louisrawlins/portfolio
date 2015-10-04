@@ -34,7 +34,7 @@ app.get('/kp', routes.kp);
 
 // Routes to redirects
 
-app.get('/contact', function(req, res){ res.redirect(process.env.NODEJITSU ? 'http://louisrawlins.com/contact' : 'http://localhost:3000/contact') });
+app.get('/contact', function(req, res){ res.redirect(process.env.NODE_ENV ? 'http://louisrawlins.com/contact' : 'http://localhost:3000/contact') });
 
-// Choose port 80 if we're on Joyent (`% export JOYENT=1` to set on server, `echo $JOYENT` to check)
-app.listen(process.env.JOYENT ? 80 : 3002);
+// Choose port 8082 if we're on NODE_ENV (`% export NODE_ENV=production` to set on server)
+app.listen(process.env.NODE_ENV ? 8082 : 3002);
